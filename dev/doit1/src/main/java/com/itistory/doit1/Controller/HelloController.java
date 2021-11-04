@@ -19,6 +19,6 @@ public class HelloController {
     }
     @RequestMapping(value="/testpage", method=RequestMethod.GET)
     public String testpage() {
-        return "testpage";
+        return "testpage 테스트 화면 설정";
     }
 }
