@@ -17,10 +17,6 @@ public class HelloController {
         return "method page 수정";
     }
     @RequestMapping(value="/testpage", method=RequestMethod.GET)
-    public String testpage() {
-        return "testpage 테스트 화면 설정 화면에 오신것 환영합니다";
-    }
-    @RequestMapping(value="/testpage", method=RequestMethod.GET)
     public String findtest() {
         return "findtest 자동 빌드 마지막 테스트";
     }
