@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
-
 @RestController
 public class HelloController {
 
@@ -15,7 +14,7 @@ public class HelloController {
     }
     @RequestMapping(value="/method", method=RequestMethod.GET)
     public String method() {
-        return "method page";
+        return "method page 테스트 화면 설정";
     }
     @RequestMapping(value="/testpage", method=RequestMethod.GET)
     public String testpage() {
