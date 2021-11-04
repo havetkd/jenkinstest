@@ -18,6 +18,6 @@ public class HelloController {
     }
     @RequestMapping(value="/testpage", method=RequestMethod.GET)
     public String testpage() {
-        return "testpage 테스트 화면 설정";
+        return "testpage 테스트 화면 설정 화면에 오신것 환영합니다";
     }
 }
