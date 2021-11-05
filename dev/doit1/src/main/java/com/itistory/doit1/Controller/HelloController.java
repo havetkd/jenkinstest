@@ -2,6 +2,8 @@ package com.itistory.doit1.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
@@ -16,8 +18,16 @@ public class HelloController {
     public String method() {
         return "method page 수정";
     }
-    @RequestMapping(value="/testpage", method=RequestMethod.GET)
+    @RequestMapping(value="/testPage", method=RequestMethod.GET)
     public String findtest() {
         return "findtest 2 자동 빌드 마지막 테스트";
+    }
+    @GetMapping("/give")
+    public String give(){
+        return "gite page";
+    }
+    @PostMapping("/postMapping")
+    public String postMapping(){
+        return "post page";
     }
 }
