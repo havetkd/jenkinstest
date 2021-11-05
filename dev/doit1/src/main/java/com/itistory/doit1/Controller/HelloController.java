@@ -18,6 +18,6 @@ public class HelloController {
     }
     @RequestMapping(value="/testpage", method=RequestMethod.GET)
     public String findtest() {
-        return "findtest 자동 빌드 마지막 테스트";
+        return "findtest 2 자동 빌드 마지막 테스트";
     }
 }
