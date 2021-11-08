@@ -26,6 +26,12 @@ public class HelloController {
     public String give(){
         return "gite page";
     }
+    @GetMapping("/give22")
+    public String give22(){
+        return "gite22 page";
+    }
+
+
     @PostMapping("/postMapping")
     public String postMapping(){
         return "post page";
