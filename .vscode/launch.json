@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Doit1Application<doit1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.itistory.doit1.Doit1Application",
+            "projectName": "doit1",
+            "args": ""
+        }
+    ]
+}
