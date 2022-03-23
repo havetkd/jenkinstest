@@ -26,7 +26,7 @@ public class HelloController {
     public String give(){
         return "gite page";
     }
-    @GetMapping("/give22")
+    @GetMapping("/give2343434342")
     public String give22(){
         return "gite22 page";
     }
