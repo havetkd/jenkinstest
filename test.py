@@ -8,3 +8,5 @@ print('jenkins re try build')
 
 print('jenkins re re try build')
 print('jenkins re re try build test')
+
+print('jenkins test output')
