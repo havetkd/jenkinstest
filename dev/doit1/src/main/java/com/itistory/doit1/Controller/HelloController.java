@@ -1,4 +1,4 @@
-package com.itistory.doit1.controller;
+package com.itistory.doit1.Controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMethod;
